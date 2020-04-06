@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-html{
-    font-size: 100%;
-}
-
 /*ヘッダー*/
 header img{
     margin: 10px;
@@ -39,11 +35,12 @@ header img{
 /*メイン*/
 .top-visual{
     height: 700px;
-    background-image: url("file:///Users/asukas/Desktop/bandoffcial/img/main_visual.jpg");
+    background-image: url("file:///Users/asukas/Desktop/bandofficial/img/main_visual.jpg");
     background-size: cover;
 }
 
 main{
+    background-color: #C7E6E2;
     clear: both;
     justify-content: center;
 }
@@ -55,22 +52,68 @@ main{
 }
 
 /*メインコンテンツ*/
+.main-content{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
 .main-content h2{
+    padding-top: 10px;
     text-align: center;
 }
-.news-area{
-    width: 40%;
+.news{
+    background-color: white;
+    height: 80%;
+    width: 30%;
+    margin: 20px 20px 20px 0;
     float: left;
 }
 
-.disc-area{
+.news li{
+    display: inline-block;
+}
+
+.news li p{
+    display: block;
+    text-decoration: none;
+}
+
+.disc{
+    background-color: white;
+    height: 80%;
     width: 30%;
+    margin: 20px 20px 20px 0;
+    text-align: center;
     float: left;
 }
 
-.movie-area{
+.disc img{
+    width: 50%;
+}
+
+.cate{
+    color: white;
+    background-color: #404040;
+    font-weight: bold;
+}
+
+.movie{
+    background-color: white;
+    height: 80%;
     width: 30%;
+    margin: 20px 0;
     float: left;
+    text-align: center;
+}
+
+.movie img{
+    width: 80%;
+}
+
+/*フッター*/
+footer{
+    text-align: center;
 }
 
 /*clearfixの設定*/
