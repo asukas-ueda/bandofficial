@@ -29,7 +29,7 @@ header img{
 }
 
 #menu li a:hover{
-    color: #808080;
+    color: #a9a9a9;
 }
 
 /*メイン*/
@@ -40,7 +40,6 @@ header img{
 }
 
 main{
-    background-color: #C7E6E2;
     clear: both;
     justify-content: center;
 }
@@ -53,35 +52,49 @@ main{
 
 /*メインコンテンツ*/
 .main-content{
+    background-color: #C7E6E2;
     height: 400px;
     display: flex;
     justify-content: center;
 }
 
 .main-content h2{
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .news{
     background-color: white;
-    height: 80%;
+    height: 350px;
     width: 30%;
     margin: 20px 20px 20px 0;
     float: left;
 }
 
 .news li{
+    padding: 10px;
     display: inline-block;
+    line-height: 15px;
 }
 
 .news li p{
     display: block;
     text-decoration: none;
+    line-height: 25px;
+}
+
+.news-list a{
+    color: black;
+    text-decoration: none;
+}
+
+.news-list a:hover{
+    color: #a9a9a9;
 }
 
 .disc{
     background-color: white;
-    height: 80%;
+    height: 350px;
     width: 30%;
     margin: 20px 20px 20px 0;
     text-align: center;
@@ -92,15 +105,21 @@ main{
     width: 50%;
 }
 
+.disc img:hover{
+    opacity: 0.7;
+}
+
 .cate{
     color: white;
     background-color: #404040;
     font-weight: bold;
+    border-radius: 5px;
+    padding: 0 20px;
 }
 
 .movie{
     background-color: white;
-    height: 80%;
+    height: 350px;
     width: 30%;
     margin: 20px 0;
     float: left;
@@ -109,11 +128,35 @@ main{
 
 .movie img{
     width: 80%;
+    margin-top: 20px;
+}
+
+.movie img:hover{
+    opacity: 0.7;
 }
 
 /*フッター*/
 footer{
+    background-color: black;
+    width: 100%;
     text-align: center;
+    padding: 30px 0;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.snsbtn img{
+    margin: 0 10px;
+}
+
+.link{
+    color: #404040;
+    font-size: 12px;
 }
 
 /*clearfixの設定*/
