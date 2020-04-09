@@ -45,9 +45,9 @@ header{
 }
 
 /*メイン*/
-.top-visual{
+.header{
     height: 700px;
-    background-image: url("file:///Users/asukas/Desktop/bandofficial/img/main_visual.jpg");
+    background-image: url("../img/main_visual.jpg");
     background-size: cover;
     margin-top: 90px;
 }
@@ -58,7 +58,7 @@ main{
     justify-content: center;
 }
 
-.top-visual h1{
+.header h1{
     font-size: 100px;
     font-family: 'Comic Sans MS';
     padding: 50px;
@@ -70,7 +70,6 @@ main{
     background-color: #C7E6E2;
     height: 400px;
     display: flex;
-    justify-content: center;
 }
 
 .main-content h2{
@@ -182,20 +181,6 @@ footer p{
 
 .snsbtn img:hover{
     opacity: 0.7;
-}
-
-.link{
-    color: #b0c4de;
-    font-size: 12px;
-}
-
-.link a{
-    color: #a9a9a9;
-    text-decoration: none;
-}
-
-.link a:hover{
-    color: white;
 }
 
 /*clearfixの設定*/
