@@ -45,8 +45,16 @@ header{
 }
 
 /*NEWS*/
+.news-wrapper{
+    background-color: #C7E6E2;
+    height: 600px;
+}
 
-
+.news-list{
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
 /*フッター*/
 footer{
     font-family: 'ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro';

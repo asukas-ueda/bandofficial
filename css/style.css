@@ -55,7 +55,6 @@ header{
 main{
     font-family: 'ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro';
     clear: both;
-    justify-content: center;
 }
 
 .header h1{
@@ -69,7 +68,6 @@ main{
 .main-content{
     background-color: #C7E6E2;
     height: 400px;
-    display: flex;
 }
 
 .main-content h2{
@@ -79,14 +77,14 @@ main{
     text-align: center;
 }
 
-/*ニュース*/
-.news{
-    background-color: white;
+.mainbox{
+    background-color: #ffffff;
     height: 350px;
     width: 30%;
-    margin: 20px 20px 20px 0;
+    margin: 10px;
     float: left;
 }
+/*ニュース*/
 
 .news li{
     padding: 10px 30px;
@@ -102,6 +100,7 @@ main{
 
 .news-list a{
     color: black;
+    text-align: left;
     text-decoration: none;
 }
 
@@ -116,12 +115,7 @@ main{
 
 /*ディスク*/
 .disc{
-    background-color: white;
-    height: 350px;
-    width: 30%;
-    margin: 20px 20px 20px 0;
     text-align: center;
-    float: left;
 }
 
 .disc img{
@@ -142,11 +136,6 @@ main{
 
 /*ムービー*/
 .movie{
-    background-color: white;
-    height: 350px;
-    width: 30%;
-    margin: 20px 0;
-    float: left;
     text-align: center;
 }
 

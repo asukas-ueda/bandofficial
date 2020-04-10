@@ -15,5 +15,20 @@
 
     .header h1{
         font-size: 60px;
+        position: absolute;
+        top: 70%;
+    }
+
+    /*メインコンテンツ*/
+    .main-content{
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .mainbox{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
     }
 }
