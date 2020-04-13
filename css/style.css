@@ -19,6 +19,14 @@ header{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
 #menu{
     font-family: 'Comic Sans MS';
     margin: 50px 20px 0 0;
@@ -81,7 +89,7 @@ main{
     background-color: #ffffff;
     height: 350px;
     width: 30%;
-    margin: 10px;
+    margin: 20px;
     float: left;
 }
 /*ニュース*/

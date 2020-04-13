@@ -5,6 +5,9 @@
     }
     #menu{
         display: none;
+    }
+    .menu-icon {
+        display: block;
     }   
 
     .header{
