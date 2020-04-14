@@ -102,7 +102,6 @@ main{
 
 .news li p{
     display: block;
-    text-decoration: none;
     line-height: 25px;
 }
 

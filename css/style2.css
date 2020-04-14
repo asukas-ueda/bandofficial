@@ -21,7 +21,7 @@ header{
 
 #menu{
     font-family: 'Comic Sans MS';
-    margin: 50px 20px 0 0;
+    margin: 50px 35px 0 0;
     list-style: none;
     float: right;
 }
@@ -44,17 +44,57 @@ header{
     border-bottom: solid 4px #db7093;
 }
 
+main{
+    font-family: 'ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro';
+}
 /*NEWS*/
 .news-wrapper{
+    background-color: #ffffff
+}
+
+.news-wrapper h1{
+    font-family: 'ヒラギノ角ゴ Pro W6','HiraKakuPro-W6';
+    font-size: 40px;
     background-color: #C7E6E2;
-    height: 600px;
+    padding: 130px 0 50px;
+    text-align: center;
 }
 
 .news-list{
-    background-color: #ffffff;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    padding: 30px;
+    list-style: none;
 }
+
+.news li p{
+    display: block;
+    line-height: 25px;
+}
+
+.news-list a{
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+.news-list a:hover{
+    color: #a9a9a9;
+}
+
+.news-info{
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 18px;
+}
+
+.detail{
+    font-size: 14px;
+    border-bottom: dashed 2px #a9a9a9;
+}
+
 /*フッター*/
 footer{
     font-family: 'ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro';
