@@ -21,7 +21,7 @@ header{
 
 #menu{
     font-family: 'Comic Sans MS';
-    margin: 50px 35px 0 0;
+    margin: 50px 20px 0 0;
     list-style: none;
     float: right;
 }
@@ -48,11 +48,11 @@ main{
     font-family: 'ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro';
 }
 /*NEWS*/
-.news-wrapper{
+.wrapper{
     background-color: #ffffff
 }
 
-.news-wrapper h1{
+.wrapper h1{
     font-family: 'ヒラギノ角ゴ Pro W6','HiraKakuPro-W6';
     font-size: 40px;
     background-color: #C7E6E2;
@@ -61,7 +61,7 @@ main{
 }
 
 .news-list{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding: 30px;
     list-style: none;
@@ -82,17 +82,23 @@ main{
     color: #a9a9a9;
 }
 
-.news-info{
+.info{
     padding-bottom: 20px;
+}
+
+.date{
+    padding-bottom: 5px;
 }
 
 .title{
     font-size: 18px;
+    border-bottom: dashed 1px #a9a9a9;
+    padding-bottom: 20px;
 }
 
-.detail{
-    font-size: 14px;
-    border-bottom: dashed 2px #a9a9a9;
+/*ライブ*/
+.live-date{
+    font-size: 20px;
 }
 
 /*フッター*/
