@@ -1,3 +1,3 @@
 # bandofficial
-https://github.com/asukas-ueda/bandofficial.git
+https://asukas-ueda.github.io/bandofficial/.
 製作中です。
