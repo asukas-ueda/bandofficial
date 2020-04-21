@@ -12,6 +12,19 @@
     .header h1{
         font-size: 60px;
     }
+
+    .main-content{
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .mainbox{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
 }
 
 /*スマホ*/
@@ -22,10 +35,7 @@
     }
     #menu{
         display: none;
-    }
-    .menu-icon {
-        display: block;
-    }   
+    }  
 
     .header{
         background-image: url("../img/main_visual3.jpg");
