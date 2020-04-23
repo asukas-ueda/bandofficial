@@ -167,11 +167,21 @@ main{
 .cd-wrapper{
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 100%;
+    text-align: center;
 }
 
 .cd-box{
-    width: 300px;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.cate{
+    color: white;
+    background-color: #404040;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0 20px;
 }
 /*フッター*/
 footer{
