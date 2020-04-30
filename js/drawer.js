@@ -1,5 +1,5 @@
 (function($) {
-    var $nav   = $('#navArea');
+    var $nav   = $('.navArea');
     var $btn   = $('.toggle_btn');
     var $mask  = $('#mask');
     var open   = 'open'; // class
