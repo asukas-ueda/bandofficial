@@ -26,111 +26,103 @@
     /*ハンバーガーメニュー*/
 
 /*============nav=============*/
-    nav {
-        display: block;
+    .navArea{
+        width: 100%;
         position: fixed;
+    }
+    .nav{
+        position: absolute;
+        width: 100%;
+        right: -100%;
         top: 0;
-        left: -220px;
-        bottom: 0;
-        width: 220px;
-        background: #ffffff;
-        overflow-x: hidden;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-        transition: all .5s;
-        z-index: 3;
-        opacity: 0;
+        background: rgba(168, 168, 168, 0.95);
+        -webkit-transition: 0.7s;
+        transition: 0.7s;
+        text-align: center;
     }
-    .open nav {
-        left: 0;
-        opacity: 1;
-    }
-    nav #menu {
-        padding: 25px;
-    }
-    nav #menu ul {
-        list-style: none;
+    nav ul{
         margin: 0;
         padding: 0;
     }
-    nav #menu ul li {
-        position: relative;
-        margin: 0;
-        border-bottom: 1px solid #333;
-    }
-    nav #menu ul li a {
+    nav ul li{
         display: block;
-        color: #333;
-        font-size: 14px;
-        padding: 1em;
-        text-decoration: none;
-        transition-duration: 0.2s;
+        height: calc(100vh/5);
+        line-height: 130px;
+        list-style-type: none;
+        font-size: 20px;
+        text-align: center;
     }
-    nav #menu ul li a:hover {
-        background: #e4e4e4;
+    .nav a{
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        height: 100%;
+        text-shadow: initial;
+        margin: 0 15px;
+
     }
 
 /*============.toggle_btn=============*/
-    .toggle_btn {
+    #target {
         display: block;
-        position: fixed;
+        position: absolute;
         top: 30px;
         right: 30px;
         width: 30px;
         height: 30px;
-        transition: all .5s;
         cursor: pointer;
-        z-index: 3;
+        -webkit-transition: 1s;
+        transition: 1s;
     }
-    .toggle_btn span {
+
+    .target_inner{
+        width: 30px;
+        height: 30px;
+    }
+    .target_inner_line {
         display: block;
         position: absolute;
         left: 0;
         width: 30px;
         height: 2px;
         background-color: #333;
+        -webkit-transition: 1s;
+        transition: 1s;
         border-radius: 4px;
-        transition: all .5s;
     }
-    .toggle_btn span:nth-child(1) {
+    .target_inner_1 {
         top: 4px;
     }
-    .toggle_btn span:nth-child(2) {
+    .target_inner_2 {
         top: 14px;
     }
-    .toggle_btn span:nth-child(3) {
+    .target_inner_3 {
         bottom: 4px;
     } 
-    .open .toggle_btn span {
-        background-color: #fff;
+
+    .fadein{
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
     }
-    .open .toggle_btn span:nth-child(1) {
-        -webkit-transform: translateY(10px) rotate(-315deg);
-        transform: translateY(10px) rotate(-315deg);
+    
+    .linea,.lineb,.linec{
+        background: #ffffff;
     }
-    .open .toggle_btn span:nth-child(2) {
+
+    .linea {
+        -webkit-transform: rotate(225deg);
+        transform: rotate(225deg);
+        top: 13px;
+    }
+    
+    .lineb {
         opacity: 0;
     }
-    .open .toggle_btn span:nth-child(3) {
-        -webkit-transform: translateY(-10px) rotate(315deg);
-        transform: translateY(-10px) rotate(315deg);
-    }
-/*============#mask=============*/
-    #mask {
-        display: none;
-        transition: all .5s;
-    }
-    .open #mask {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #000;
-        opacity: .8;
-        z-index: 2;
-        cursor: pointer;
+    
+    .linec {
+        -webkit-transform: rotate(-225deg);
+        transform: rotate(-225deg);
+        top: 13px;
     }
 }
 
