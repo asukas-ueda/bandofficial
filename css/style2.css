@@ -4,9 +4,14 @@
 }
 
 /*ヘッダー*/
-header img{
+.pc{
+    display: block;
     margin: 10px;
     float: left;
+}
+
+.sp{
+    display: none;
 }
 
 header{
@@ -201,36 +206,32 @@ main{
 
 /*コンタクト*/
 form{
-    width: 700px;
+    width: 60%;
     margin: 0 auto;
+    padding: 40px 0 40px;
 }
 
 .item{
+    display: block;
     overflow: hidden;
     margin-bottom: 20px;
 }
 
-.label{
-    margin-right: 20px;
-    width:135px;
-    border-left: solid 3px #e0505d;
-    padding-left: 10px;
-}
-
 .inputs{
-    width:300px;
+    float: right;
+    width: 70%;
 }
 
 input[type="text"],input[type="email"]{
     border: solid 1px #aaa;
-    border-radius:5px;
-    padding:10px;
+    border-radius: 5px;
+    padding: 10px;
     font-size: 15px;
 }
 
 textarea{
     border: solid 1px #aaa;
-    border-radius:5px;
+    border-radius: 5px;
     padding: 10px;
     height: 160px;
     font-size: 15px;
@@ -264,7 +265,21 @@ input[type="reset"]{
     margin: 0 5px;
 }
 
+.la{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
 
+.label-danger{
+    background-color: tomato;
+}
+
+.label-success{
+    background-color: yellowgreen;
+}
 
 /*フッター*/
 footer{

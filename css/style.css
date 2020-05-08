@@ -4,9 +4,14 @@
 }
 
 /*ヘッダー*/
-header img{
+.pc{
+    display: block;
     margin: 10px;
     float: left;
+}
+
+.sp{
+    display: none;
 }
 
 header{

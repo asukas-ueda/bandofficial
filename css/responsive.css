@@ -4,6 +4,7 @@
     .header{
         width: 100%;
         height: 400px;
+        position: relative;
     }
 
     .header h1{
@@ -23,43 +24,50 @@
         padding-bottom: 10px;
     }
 
+    .news-list{
+        display: inline-block;
+        padding: 0 10% 0;
+    }
+
     /*ハンバーガーメニュー*/
 
 /*============nav=============*/
-    .navArea{
+
+    .pfix{
         width: 100%;
         position: fixed;
     }
     .nav{
         position: absolute;
+        margin: 0;
+        height: 100vh;
         width: 100%;
-        right: -100%;
+        left: -100%;
         top: 0;
-        background: rgba(168, 168, 168, 0.95);
+        background: rgba(250, 128, 114, 0.95);
         -webkit-transition: 0.7s;
         transition: 0.7s;
-        text-align: center;
     }
-    nav ul{
+    .nav ul{
         margin: 0;
-        padding: 0;
+        padding-top: 30px;
     }
-    nav ul li{
+    .nav ul li{
         display: block;
         height: calc(100vh/5);
-        line-height: 130px;
+        line-height: 50px;
         list-style-type: none;
         font-size: 20px;
-        text-align: center;
     }
     .nav a{
-        text-decoration: none;
-        text-align: center;
-        color: #fff;
         height: 100%;
         text-shadow: initial;
         margin: 0 15px;
+    }
 
+    .nav li a:hover{
+        color: #ffffff;
+        border-bottom: none;
     }
 
 /*============.toggle_btn=============*/
@@ -126,12 +134,18 @@
     }
 }
 
+
 /*スマホ*/
 @media screen and (max-width: 480px){
-    header img{
-        width: 300px;
-        padding: 10px 5px 10px;
-    } 
+    .pc{
+        display: none;
+    }
+    
+    .sp{
+        display: block;
+        margin: 10px;
+        float: left;
+    }
 
     .header{
         background-image: url("../img/main_visual3.jpg");
@@ -140,9 +154,9 @@
     }
 
     .header h1{
-        font-size: 60px;
+        font-size: 50px;
         position: absolute;
-        top: 80%;
+        top: 70%;
         left: 15px;
     }
 
@@ -158,5 +172,9 @@
         width: 100%;
         height: auto;
         padding-bottom: 10px;
+    }
+
+    .news-list{
+        padding: 0 5% 0;
     }
 }
