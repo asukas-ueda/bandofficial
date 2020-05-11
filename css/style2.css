@@ -54,6 +54,7 @@ main{
 }
 /*NEWS*/
 .wrapper{
+    width: 100%;
     background-color: #ffffff
 }
 
@@ -65,37 +66,37 @@ main{
     text-align: center;
 }
 
-.news-list{
+.n-list{
     width: 80%;
     margin: 0 auto;
     padding: 30px;
     list-style: none;
 }
 
-.news li p{
+.n-list li p{
     display: block;
     line-height: 25px;
 }
 
-.news-list a{
+.n-list a{
     color: black;
     text-align: left;
     text-decoration: none;
 }
 
-.news-list a:hover{
+.n-list a:hover{
     color: #a9a9a9;
 }
 
-.info{
+.n-info{
     padding-bottom: 20px;
 }
 
-.date{
+.n-date{
     padding-bottom: 5px;
 }
 
-.title{
+.n-title{
     font-size: 18px;
     border-bottom: dashed 1px #a9a9a9;
     padding-bottom: 20px;
@@ -204,6 +205,10 @@ main{
     font-size: 20px;
 }
 
+.box2{
+    display: none;
+}
+
 /*コンタクト*/
 form{
     width: 60%;
@@ -219,7 +224,7 @@ form{
 
 .inputs{
     float: right;
-    width: 70%;
+    width: 60%;
 }
 
 input[type="text"],input[type="email"]{
@@ -235,10 +240,6 @@ textarea{
     padding: 10px;
     height: 160px;
     font-size: 15px;
-}
-
-.btn-area{
-    text-align: center;
 }
 
 .btn-area{
