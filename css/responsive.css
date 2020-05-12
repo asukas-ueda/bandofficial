@@ -1,5 +1,11 @@
+/*デスクトップ*/
+@media screen and (min-width: 1280px){
+    .header{
+        height: 1000px;
+    }
+}
 /*タブレット*/
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1024px){
 
     .header{
         width: 100%;
@@ -13,6 +19,7 @@
 
     .main-content{
         height: auto;
+        display: block;
         flex-wrap: wrap;
     }
 
