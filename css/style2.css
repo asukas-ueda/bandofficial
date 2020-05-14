@@ -66,37 +66,37 @@ main{
     text-align: center;
 }
 
-.n-list{
+.n_list{
     width: 80%;
     margin: 0 auto;
     padding: 30px;
     list-style: none;
 }
 
-.n-list li p{
+.n_list li p{
     display: block;
     line-height: 25px;
 }
 
-.n-list a{
+.n_list a{
     color: black;
     text-align: left;
     text-decoration: none;
 }
 
-.n-list a:hover{
+.n_list a:hover{
     color: #a9a9a9;
 }
 
-.n-info{
+.n_info{
     padding-bottom: 20px;
 }
 
-.n-date{
+.n_date{
     padding-bottom: 5px;
 }
 
-.n-title{
+.n_title{
     font-size: 18px;
     border-bottom: dashed 1px #a9a9a9;
     padding-bottom: 20px;
@@ -122,7 +122,7 @@ main{
     width: 70%;
 }
 
-.sub-wrapper h1{
+.sub_wrapper h1{
     font-family: 'ヒラギノ角ゴ Pro W6','HiraKakuPro-W6';
     font-size: 40px;
     background-color: #fdeff2;
@@ -161,11 +161,11 @@ main{
 }
 
 /*ディスク*/
-.cd-box img{
+.cd_box img{
     width: 70%;
 }
 
-.cd-wrapper{
+.cd_wrapper{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -173,18 +173,18 @@ main{
     margin: 50px 0 50px;
 }
 
-.cd-box{
+.cd_box{
     width: 30%;
     margin: 0 auto;
     padding-bottom: 30px;
 }
 
-.cd-box a{
+.cd_box a{
     color: #000000;
     text-decoration: none;
 }
 
-.cd-box a:hover{
+.cd_box a:hover{
     opacity: 0.8;
 }
 
@@ -196,7 +196,7 @@ main{
     padding: 0 20px;
 }
 
-.disc-name{
+.disc_name{
     font-size: 20px;
 }
 
@@ -216,10 +216,12 @@ form{
     overflow: hidden;
     margin-bottom: 20px;
 }
-
+label{
+    float: left;
+}
 .inputs{
-    float: right;
     width: 60%;
+    float: right;
 }
 
 input[type="text"],input[type="email"]{
@@ -237,7 +239,7 @@ textarea{
     font-size: 15px;
 }
 
-.btn-area{
+.btn_area{
     text-align: center;
 }
 
@@ -264,16 +266,16 @@ input[type="reset"]{
 .la{
     color: white;
     font-size: 14px;
-    margin-left: 10px;
     padding: 3px 5px;
     border-radius: 3px;
+    margin-left: 15px;
 }
 
-.label-danger{
+.label_danger{
     background-color: tomato;
 }
 
-.label-success{
+.label_success{
     background-color: yellowgreen;
 }
 
@@ -283,6 +285,7 @@ footer{
     background-color: black;
     width: 100%;
     text-align: center;
+    margin-top: auto;
     padding: 30px 0;
 }
 
@@ -301,19 +304,6 @@ footer p{
     opacity: 0.7;
 }
 
-.link{
-    color: #b0c4de;
-    font-size: 12px;
-}
-
-.link a{
-    color: #a9a9a9;
-    text-decoration: none;
-}
-
-.link a:hover{
-    color: white;
-}
 
 /*clearfixの設定*/
 .clearfix::after{
