@@ -4,16 +4,6 @@
 }
 
 /*ヘッダー*/
-.pc{
-    display: block;
-    margin: 10px;
-    float: left;
-}
-
-.sp{
-    display: none;
-}
-
 header{
     height: 90px;
     background-color: white;

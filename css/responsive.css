@@ -6,7 +6,6 @@
     .group img{
         width: 50%;
     }
-    
 }
 /*タブレット*/
 @media screen and (max-width: 1024px){
@@ -180,16 +179,6 @@
 
 /*スマホ*/
 @media screen and (max-width: 480px){
-    .pc{
-        display: none;
-    }
-    
-    .sp{
-        display: block;
-        margin: 10px;
-        float: left;
-    }
-
     .header{
         background-image: url("../img/main_visual3.jpg");
         width: 100%;

@@ -161,10 +161,6 @@ main{
 }
 
 /*ディスク*/
-.cd_box img{
-    width: 70%;
-}
-
 .cd_wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -174,14 +170,17 @@ main{
 }
 
 .cd_box{
-    width: 30%;
+    width: 33.3%;
     margin: 0 auto;
     padding-bottom: 30px;
 }
-
+.cd_box img{
+    max-width: 300px;
+}
 .cd_box a{
     color: #000000;
     text-decoration: none;
+    display: block;
 }
 
 .cd_box a:hover{
@@ -217,7 +216,6 @@ form{
     margin-bottom: 20px;
 }
 label{
-    float: left;
     position: relative;
 }
 .la{
@@ -226,7 +224,9 @@ label{
     padding: 3px 5px;
     border-radius: 3px;
     position: absolute;
-    left: 130px;
+    left: 140px;
+    width: 30px;
+    text-align: center;
 }
 
 .label_danger{
@@ -258,6 +258,8 @@ textarea{
 
 .btn_area{
     text-align: center;
+    width: 80%;
+    margin-bottom: 50px;
 }
 
 input[type="submit"]{
