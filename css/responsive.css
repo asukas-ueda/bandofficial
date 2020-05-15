@@ -2,6 +2,11 @@
     .header{
         height: 100vh;
     }
+
+    .group img{
+        width: 50%;
+    }
+    
 }
 /*タブレット*/
 @media screen and (max-width: 1024px){
@@ -230,10 +235,10 @@
     .icon img{
         width: 40%;
     }
-    .name h3{
+    .name h2{
         font-size: 24px;
     }
-    .name h4,.disc_name{
+    .name h3,.disc_name{
         font-size: 18px;
     }
 
@@ -258,7 +263,7 @@
         font-size: 10px;
         padding: 1px 2px;
     }
-    .inputs{
+    input,textarea{
         float: left;
         width: 90%;
     }  

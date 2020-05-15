@@ -143,12 +143,12 @@ main{
     width: 25%;
 }
 
-.name h3{
+.name h2{
     font-size: 30px;
     margin-top: 10px;
 }
 
-.name h4{
+.name h3{
     font-size: 20px;
     color: #606060;
     margin-bottom: 15px;
@@ -218,8 +218,25 @@ form{
 }
 label{
     float: left;
+    position: relative;
 }
-.inputs{
+.la{
+    color: white;
+    font-size: 14px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    position: absolute;
+    left: 130px;
+}
+
+.label_danger{
+    background-color: tomato;
+}
+
+.label_success{
+    background-color: yellowgreen;
+}
+input,textarea{
     width: 60%;
     float: right;
 }
@@ -263,21 +280,7 @@ input[type="reset"]{
     margin: 0 5px;
 }
 
-.la{
-    color: white;
-    font-size: 14px;
-    padding: 3px 5px;
-    border-radius: 3px;
-    margin-left: 15px;
-}
 
-.label_danger{
-    background-color: tomato;
-}
-
-.label_success{
-    background-color: yellowgreen;
-}
 
 /*フッター*/
 footer{
