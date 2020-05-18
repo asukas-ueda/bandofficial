@@ -4,16 +4,6 @@
 }
 
 /*ヘッダー*/
-.pc{
-    display: block;
-    margin: 10px;
-    float: left;
-}
-
-.sp{
-    display: none;
-}
-
 header{
     height: 90px;
     width: 100%;
@@ -22,6 +12,10 @@ header{
     top: 0;
     z-index: 10;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+header h1{
+    margin: 10px;
+    float: left;
 }
 
 .nav{
@@ -103,23 +97,29 @@ main{
 }
 
 /*プロフィール*/
+.profile{
+    text-align: center;
+}
 .profile p{
     margin: 0.5em 0px;
 }
 
+.group p,.individual p{
+    display: inline-block;
+    text-align: left;
+}
+
 .group{
-    text-align: center;
     margin-bottom: 50px;
 }
 
 .group img{
     margin: 50px 0 30px;
+    width: 50%;
 }
 
 .group p{
-    display: inline-block;
-    text-align: left;
-    width: 70%;
+    width: 50%;
 }
 
 .sub_wrapper h1{
@@ -131,7 +131,6 @@ main{
 }
 
 .member{
-    text-align: center;
     margin-top: 70px;
 }
 
@@ -152,12 +151,6 @@ main{
     font-size: 20px;
     color: #606060;
     margin-bottom: 15px;
-}
-
-.name p{
-    display: inline-block;
-    text-align: left;
-    width: 60%;
 }
 
 /*ディスク*/

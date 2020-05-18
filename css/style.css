@@ -11,6 +11,10 @@ header{
     z-index: 10;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
+header h1{
+    margin: 10px;
+    float: left;
+}
 
 .pfix{
     width: 100%;
@@ -19,7 +23,7 @@ header{
 
 .nav{
     font-family: 'Comic Sans MS';
-    margin: 50px 20px 0 0;
+    margin: 50px 20px 0;
     list-style: none;
     float: right;
 }

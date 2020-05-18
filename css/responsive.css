@@ -2,10 +2,6 @@
     .header{
         height: 100vh;
     }
-
-    .group img{
-        width: 50%;
-    }
 }
 /*タブレット*/
 @media screen and (max-width: 1024px){
@@ -145,6 +141,9 @@
     }
 
     /*プロフィール*/
+    .individual p{
+        width: 50%;
+    }
     .group img{
         width: 80%;
     }
